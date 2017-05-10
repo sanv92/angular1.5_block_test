@@ -1,0 +1,388 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	margin: 0;
+	padding: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block
+}
+
+body {
+	line-height: 1
+}
+
+ul {
+	list-style: none
+}
+
+blockquote, q {
+	quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+img {
+	vertical-align: middle;
+}
+
+textarea {
+	resize: vertical;
+}
+
+/* Predefined CSS */
+.chromeframe {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 0.625em 0.938em;
+	background: #fff;
+	color: #f00;
+}
+
+.noscript {
+	display: none
+}
+
+html.no-js .noscript {
+	display: block
+}
+
+.pageContent {
+    width: 100%;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
+
+.inner-row {
+	float: left;
+	width: 100%
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal
+}
+
+h1 {
+	font-size: 120%
+}
+
+h2 {
+	font-size: 200%
+}
+
+h3 {
+	font-weight: bold;
+	font-style: italic
+}
+
+/* Main CSS */
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+html,body {
+	height: 100%
+}
+
+.wrap {
+	min-height: 100%;
+	padding-bottom: 2.5em
+}
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	color: #112433;
+	font-size: 100%;
+	font-weight: normal;
+	background-color: #e2e9ed
+}
+
+p {
+	font-size: 87.5%
+}
+
+.rating a {
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+	-o-transition: opacity .2s ease-in-out;
+	-ms-transition: opacity .2s ease-in-out;
+	-khtml-transition: opacity .2s ease-in;
+	transition: opacity .2s ease-in-out
+}
+
+.rating {
+	position: absolute;
+	top: 1.9375em;
+	left: .5em;
+	width: 6.75em;
+	height: 100%
+}
+
+.rating span,
+.rating a {
+	display: inline-block;
+	float: left
+}
+
+.rating a {
+	background-image: url('images/thumbs.png');
+	width: 2em;
+	height: 2em;
+	text-indent: -9999px
+}
+
+.rating a.disabled,
+.rating a:hover {
+	-webkit-opacity: .5;
+	-moz-opacity: .5;
+	-o-opacity: .5;
+	-ms-opacity: .5;
+	-khtml-opacity: .5;
+	opacity: .5
+}
+
+.rating a.disabled {
+	cursor: not-allowed
+}
+
+.rating a:first-child {
+	background-position: -2em 0px
+}
+
+.rating span {
+	width: 1.4375em;
+	height: 2em;
+ 	line-height: 2em;
+	text-align: center
+}
+
+.rating span {
+	font-style: italic;
+	font-weight: bold
+}
+
+section.odd .rating a:first-child {
+	background-position: -2em -2em
+}
+
+section.odd .rating a + span + a {
+	background-position: 0 -2em
+}
+
+header[role="banner"] h1 a {
+	display: block;
+	color: #112433;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 2em .4444444444444444em;
+	width: 100%;
+	line-height: .84em;
+	background-image: url('images/logo.png');
+	background-repeat: no-repeat;
+	background-position: 1em 50%;
+
+	-webkit-background-size: 12% auto;
+	-moz-background-size: 12% auto;
+	-o-background-size: 12% auto;
+	-ms-background: 12% auto;
+	-khtml-background: 12% auto;
+	background-size: 12% auto;
+	
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-khtml-transition: all .2s ease-in;
+	transition: all .2s ease-in-out
+}
+
+header[role="banner"] h1 a:hover {
+	-webkit-opacity: .8;
+	-moz-opacity: .8;
+	-o-opacity: .8;
+	-ms-opacity: .8;
+	-khtml-opacity: .8;
+	opacity: .8;
+	-webkit-transform: scale(.9);
+	-moz-transform: scale(.9);
+	-o-transform: scale(.9);
+	-ms-transform: scale(.9);
+	-khtml-transform: scale(.9);
+	transform: scale(.9)
+}
+
+nav[role="navigation"] {
+	display: inline-block;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	margin-top: .5625em;
+	margin-bottom: .8125em
+}
+
+nav[role="navigation"] {
+	
+}
+
+nav[role="navigation"] li {
+	display: inline-block;
+	float: left;
+	width: 50%
+}
+
+nav[role="navigation"] li:first-child {
+	padding-left: 0
+}
+
+nav[role="navigation"] li a {
+	color: #112433;
+	font-size: 87.5%;
+	text-transform: uppercase;
+	text-decoration: none
+}
+
+nav[role="navigation"] li a:hover {
+	color: #1e3e58;
+	border-bottom: 1px solid #1e3e58
+}
+
+section[role="main"] footer ul li {
+	color: #80878c
+}
+
+section[role="main"] h2 + section {
+	padding-top: 1.92em
+}
+
+section[role="main"] section {
+	padding: 1.125em 0
+}
+
+section[role="main"] section p {
+	padding-bottom: 1em
+}
+
+section[role="main"] section footer {
+	display: inline-block;
+	padding-top: .1875em
+}
+
+section[role="main"] section footer li:first-child {
+	margin-left: 0
+}
+
+section[role="main"] section footer li {
+	display: inline-block;
+	float: left;
+	margin-left: 1.25em
+}
+
+section[role="main"] section h3 {
+	margin-bottom: .875em
+}
+
+header[role="banner"],
+section[role="main"] section > div:first-child,
+footer[role="contentinfo"] small {
+	display: block;
+	max-width: 60em;
+	margin: auto
+}
+
+section[role="main"] h2 {
+	max-width: 30em;
+	margin: auto;
+	padding: 1.5em 0 0 3.625em
+}
+
+section[role="main"] section > div:first-child {
+	padding: 0 .5em 0 7.25em;
+	position: relative
+}
+
+section[role="main"] section.odd {
+	background-color: #7a3053;
+	color: #fff
+}
+
+footer li {
+	font-size: 87.5%
+}
+
+footer[role="contentinfo"] {
+	height: 2.5em;
+	line-height: 2.5em;
+	margin-top: -2.5em;
+	background-color: #112433;
+	color: #fff
+}
+
+footer[role="contentinfo"] small {
+	font-size: 75%;
+	max-width: 80em;
+	padding-left: 1em
+}
+
+@media screen and (min-width:40em){
+	h1 {
+		font-size: 450%
+	}
+	header[role="banner"] h1 {
+		padding: .4444444444444444em .4444444444444444em .6em .4444444444444444em
+
+	}
+	header[role="banner"] h1 a {
+		width: 7em;
+		padding: 0 0 0 2.8em;
+		text-align: left;
+		background-position: 0 0;
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		-o-background-size: auto;
+		-ms-background: auto;
+		-khtml-background: auto;
+		background-size: auto
+	}
+	nav[role="navigation"] li {
+		width: 16.5%
+	}
+	.rating {
+		left: 7.75em
+	}
+
+	section[role="main"] h2 {
+		padding-left: 7.25em
+	}
+
+	section[role="main"] section > div:first-child {
+		padding: 0 .5em 0 14.5em
+	}
+	nav[role="navigation"] {
+		margin: auto;
+		text-align: left;
+		padding-left: 14.5em
+	}
+	footer[role="contentinfo"] small {
+		padding-left: 19.33333333333333em
+	}
+}

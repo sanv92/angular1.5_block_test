@@ -1,0 +1,15 @@
+header[role="banner"] h1 a:hover {
+    filter: alpha(opacity=80);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80)
+}
+
+.rating a:hover {
+	filter: alpha(opacity=50);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50)
+}
+
+body,
+header[role="banner"] h1 a {
+	-ms-behavior: url(backgroundsize.min.htc);
+	behavior: url(backgroundsize.min.htc);
+}

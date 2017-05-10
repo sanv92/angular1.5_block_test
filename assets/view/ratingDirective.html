@@ -1,0 +1,5 @@
+<div class="rating">
+    <a href ng-class="{'disabled': article.voting == 10}" ng-click="incRate(article)">+</a>
+    <span>{{article.voting}}</span>
+    <a href ng-class="{'disabled': article.voting == 0}" ng-click="decRate(article)">-</a>
+</div>

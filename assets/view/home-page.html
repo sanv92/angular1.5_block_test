@@ -1,0 +1,13 @@
+    <h2>Title</h2>
+    <section ng-repeat="article in articles" ng-class="{'odd': ($index % 2 != 0)}">
+        <div>
+            <h3>{{article.heading}}</h3>
+            <div ng-bind-html="article.description | sanitize"></div>
+            <footer ng-if="article.tags && article.tags.length > 0">
+                <ul>
+                    <li ng-repeat="tag in article.tags">{{tag}}</li>
+                </ul>
+            </footer>
+            <rating-directive article="article"></rating-directive>
+        </div>
+    </section>
