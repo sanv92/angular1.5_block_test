@@ -1,2 +1,3 @@
 # angular 1.5 blog test
-Creating a simple blog on angular
+Title: AngularJS simple blog
+Technologies: HTML5, CCS3, AngularJS 1.5
